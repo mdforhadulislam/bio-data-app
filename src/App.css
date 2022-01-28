@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,500;0,600;0,800;0,900;1,300;1,500;1,600;1,800;1,900&display=swap");
+.main__container {
+  width: 385px;
+  height: auto;
+  padding: 20px 20px 0px 20px;
+  background: #00000008;
+  border-radius: 15px;
+  box-shadow: 0px 0px 5px #9c9c9c;
+  margin: 10px;
+  display: inline-block;
+  font-family: "Montserrat", sans-serif;
+}
+.person__name {
+  font-size: 28px;
+  font-weight: 600;
+  display: inline-block;
+}
+.person__title {
+  font-size: 15px;
+  display: block;
+}
+.person__mobile__no {
+  padding: 5px 5px 5px 0px;
+  height: auto;
+}
+.person__age {
+  display: inline-block;
+  height: auto;
+  padding: 5px;
+}
+.person__skills {
+  width: 100%;
+  height: auto;
+  padding: 5px 0px;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.person__skills ul {
+  width: 85%;
+  height: auto;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.person__skills ul li {
+  width: auto;
+  padding: 5px 8px;
+  display: inline-block;
+  background: #00000007;
+  box-shadow: 0px 0px 5px #c7c7c7;
+  margin: 0px 7px 10px 7px;
+  border-radius: 6px;
+}
+
+.socail__link {
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-left: -20px;
+  background: #0f876a;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  justify-content: flex-start;
+  padding: 5px 20px 0px 20px;
+  color: white;
+}
+.socail__link a {
+  padding: 5px 15px 5px 0px;
+}
+.socail__link a img {
+  width: 40px;
+  height: 40px;
+}
